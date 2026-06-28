@@ -4,10 +4,10 @@ import { useEffect, useMemo, useRef, useState } from "react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Level 4 Unlocked 💖 — 4 Years of Us" },
-      { name: "description", content: "A little love game to celebrate four years of us — laughter, memories, and forever." },
-      { property: "og:title", content: "Level 4 Unlocked 💖" },
-      { property: "og:description", content: "4 years of love, laughter, and us." },
+      { title: "A Little Story For You 💖" },
+      { name: "description", content: "A tiny story-game made just for you — press start and follow along." },
+      { property: "og:title", content: "A Little Story For You 💖" },
+      { property: "og:description", content: "Press start. Follow the story. Answer one tiny question at the end." },
     ],
   }),
   component: Index,
