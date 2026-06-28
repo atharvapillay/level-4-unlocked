@@ -5,8 +5,8 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "A Little Story For You 💖" },
-      { name: "description", content: "A tiny story-game made just for you — press start and follow along." },
-      { property: "og:title", content: "A Little Story For You 💖" },
+      { name: "description", content: "A tiny story made just for you — press start and follow along." },
+      { property: "og:title", content: "A Little 4th Anniversary Gift For You 💖" },
       { property: "og:description", content: "Press start. Follow the story. Answer one tiny question at the end." },
     ],
   }),
@@ -53,28 +53,28 @@ function FloatingHearts() {
 // EDIT ME — rewrite these chapters to be your story.
 const CHAPTERS: { title: string; emoji: string; text: string }[] = [
   {
-    title: "Chapter 1 — Once upon a swipe",
+    title: "Chapter 1 — Once upon a text",
     emoji: "🌸",
     text:
-      "Once upon a time, in a world full of ordinary days, there was a boy who couldn't stop thinking about a girl. He didn't know it yet, but his whole life was about to get a little softer, a little louder, and a lot more pink.",
+      "Once upon a text, in a world full of ordinary days, there was a boy who couldn't stop thinking about a girl. Who messaged him over a simple and small thing. He didn't know it yet, but his whole life was about to get a little softer, a little louder, and a lot more pink.",
   },
   {
-    title: "Chapter 2 — The first 'hi'",
+    title: "Chapter 2 — The first 'I Love You'",
     emoji: "💌",
     text:
-      "The first 'hi' felt like nothing. The second one felt like something. By the third, the boy was rereading every message three times and smiling at his phone like an idiot. (He still does, by the way.)",
+      "And three days later she said it. The first 'I Love You'. The Boy felt something special for the first time in life. By the second 'I Love You', the boy was rereading every message three times and smiling at his phone like an idiot. (He still does, by the way.)",
   },
   {
     title: "Chapter 3 — Our little universe",
     emoji: "🌍",
     text:
-      "Slowly, we built a tiny universe — inside jokes nobody else gets, songs that only mean something to us, that one mall, that one walk, that one night. Home stopped being a place. It started being you.",
+      "Slowly, we built a tiny universe — inside jokes nobody else gets, songs that only mean something to us, that one mall, that one walk, that one night, that one hug. Home stopped being a place. It started being you.",
   },
   {
     title: "Chapter 4 — Every storm, together",
     emoji: "☔",
     text:
-      "Not every page was sunshine. There were rainy chapters too — but every time it stormed, we just held hands a little tighter. Turns out, the rain is kind of nice when it's with you.",
+      "Not every page was sunshine. There were rainy chapters too — but every time it stormed, we just held each other a little tighter. Turns out, the rain is kind of nice when it's with you.",
   },
   {
     title: "Chapter 5 — Right now",
@@ -186,7 +186,7 @@ function StoryGame() {
               She said YES 💕
             </h2>
             <p className="mx-auto mt-4 max-w-md text-lg text-foreground/85">
-              Best plot twist ever. Now come here so I can hug you — the next chapter starts today,
+              Best plot twist ever. Now come here so I can hug you — the 5th chapter starts today,
               and I can't wait to write all of it with you.
             </p>
             <p className="mt-6 text-2xl">— Forever yours 💖</p>
