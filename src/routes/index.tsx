@@ -68,7 +68,7 @@ const CHAPTERS: { title: string; emoji: string; text: string }[] = [
     title: "Chapter 3 — Our little universe",
     emoji: "🌍",
     text:
-      "Slowly, we built a tiny universe — inside jokes nobody else gets, songs that only mean something to us, that one café, that one walk, that one night you laughed so hard you cried. Home stopped being a place. It started being you.",
+      "Slowly, we built a tiny universe — inside jokes nobody else gets, songs that only mean something to us, that one mall, that one walk, that one night. Home stopped being a place. It started being you.",
   },
   {
     title: "Chapter 4 — Every storm, together",
